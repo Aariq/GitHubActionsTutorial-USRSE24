@@ -16,6 +16,7 @@ jobs:
           python-version: 3.12
 
       - name: Install conda packages
+        shell: pwsh
         run: |
           conda install scipy
 
